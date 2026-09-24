@@ -1,410 +1,260 @@
 # From Classifieds to Transactions
 
-## Designing an Asset-Light C2C Automotive Marketplace
+### Designing an Asset-Light C2C Automotive Marketplace
 
-**AI-assisted strategy, operating model and financial business case**
+**AI-assisted corporate strategy, business-model innovation and integrated financial planning**
 
-This portfolio case study explores how an established automotive
-classifieds platform could evolve from a lead-generation model into a
-trusted, transaction-enabled C2C marketplace --- without taking vehicle
-inventory onto its balance sheet.
+This portfolio case study explores how an established automotive classifieds platform could evolve from **listing and lead generation** into a **trusted, transaction-enabled C2C marketplace** — while remaining asset-light and avoiding vehicle inventory risk.
 
-> **Portfolio edition.** This case is derived from a real strategic
-> business-planning exercise. The company identity, commercial
-> assumptions, financial values, partner references and selected
-> operating parameters have been anonymized or intentionally modified.
-> The strategic methodology, model architecture and managerial decision
-> framework have been preserved.
+> **Portfolio edition.** Derived from a real strategic business-planning exercise. Company identity, financial values, market assumptions, partner references and selected operating parameters have been anonymized or intentionally modified. The strategic methodology and model architecture have been preserved.
 
-------------------------------------------------------------------------
+![Executive overview](assets/case-executive-summary.png)
 
 ## Executive Question
 
-**How can an established classifieds marketplace capture more value from
-a vehicle transaction that currently happens largely outside the
-platform?**
+**How can an established classifieds marketplace capture more value from a vehicle transaction that currently happens largely outside the platform?**
 
-The strategic hypothesis is that an incumbent marketplace can use its
-existing brand, SEO visibility, audience and listing liquidity to move
-downstream from **discovery and lead generation** into **transaction
-orchestration**.
+The strategic hypothesis is that an incumbent can use its existing brand, SEO visibility, audience and listing liquidity to move downstream from discovery into **transaction orchestration**.
 
-The proposed model remains asset-light: the marketplace does not
-purchase or hold the vehicle. Instead, it coordinates a trusted
-transaction layer around the buyer and seller.
-
-``` text
+```text
 Classified listing / lead generation
                 ↓
         Trusted C2C transaction
                 ↓
-Verification · Escrow · Title Transfer
+Verification · Protected Payment · Title Transfer
 Inspection · Warranty · Financing · Delivery
                 ↓
  Multiple transaction-linked revenue streams
 ```
 
-------------------------------------------------------------------------
+The proposed model remains **asset-light**: the marketplace does not purchase or hold the vehicle. It coordinates a trusted transaction layer around buyer and seller.
 
-## What the Business Case Covers
+---
 
-The model connects strategy, operations and economics across a five-year
-planning horizon:
+## The Management Problem
 
--   market sizing: TAM / SAM / SOM
--   competitive benchmarking and strategic whitespace
--   asset-light marketplace design
--   eight potential revenue streams
--   partner / build-vs-buy architecture
--   adoption and monetization assumptions
--   five-year operating and financial model
--   detailed ARPU build-up
--   annual and monthly P&L
--   cash-flow and runway analysis
--   CAC and LTV
--   bilateral marketplace acquisition economics
--   break-even analysis
--   scenario and sensitivity analysis
--   competitive advantage
--   risks and mitigations
--   source notes and assumption reconciliation
+This is not simply a product-feature exercise. The case connects five management questions:
 
-The objective was not simply to create a spreadsheet forecast. It was to
-build an **integrated management model in which the strategic thesis,
-operating assumptions and financial consequences can be challenged
-together.**
+1. **Is there a meaningful customer problem?**
+2. **Can an incumbent marketplace create a defensible advantage?**
+3. **Which capabilities should be built, partnered or outsourced?**
+4. **Can the transaction generate attractive unit economics?**
+5. **Which assumptions must be validated before committing capital?**
 
-------------------------------------------------------------------------
+The objective was to create an **integrated decision model**, not just a spreadsheet forecast.
 
-## 1. Strategic Problem
+---
 
-Traditional classifieds platforms are very good at helping buyers and
-sellers **find each other**.
+## Business-Model Architecture
 
-Much of the economic value and customer experience after that point is
-captured elsewhere:
+The transaction journey combines:
 
--   identity and vehicle verification
--   payment protection
--   ownership transfer
--   inspection
--   warranty
--   financing
--   logistics
+**Discovery → verification → inspection/history → financing → protected payment → ownership transfer → warranty → delivery**
 
-The business case asks whether an established marketplace could
-orchestrate those services itself and become the trusted transaction
-layer while avoiding the capital intensity of purchasing vehicle
-inventory.
+The marketplace retains control of the customer journey, product experience, pricing, data and partner orchestration while specialist providers can carry regulated, actuarial or operational risks.
 
-------------------------------------------------------------------------
+### Potential revenue architecture
 
-## 2. Proposed Business Model
+| Revenue layer | Strategic role |
+|---|---|
+| Transaction / protected-payment fee | Core transaction monetization |
+| Success fee | Align revenue with completed transactions |
+| Inspection margin | Trust + incremental monetization |
+| Warranty commission | Risk protection without underwriting directly |
+| Vehicle-history verification | Fraud reduction + service revenue |
+| Financing commission | Liquidity + high-value ancillary revenue |
+| Delivery margin | Convenience + transaction completion |
+| Listing visibility | Existing marketplace-style upsell |
 
-### Asset-light transaction orchestration
+The management question is not whether every service should launch simultaneously, but which combination creates enough **trust, conversion and ARPU** to justify the additional operational complexity.
 
-The seller retains ownership of the vehicle until the transaction
-closes.
+---
 
-The marketplace coordinates the transaction rather than becoming the
-vehicle owner.
+## Market & Competitive Logic
 
-``` text
-SELLER
-  ↓
-Listing & discovery
-  ↓
-Buyer interest
-  ↓
-Identity + vehicle verification
-  ↓
-Inspection / history
-  ↓
-Financing option
-  ↓
-Escrow / protected payment
-  ↓
-Digital ownership transfer
-  ↓
-Warranty option
-  ↓
-Vehicle delivery
-  ↓
-TRANSACTION COMPLETE
-```
+The model separates:
 
-This creates a different risk profile from inventory-owning used-car
-operators:
+**TAM** — total C2C used-car transaction universe  
+**SAM** — transactions realistically suitable for a digitally orchestrated journey  
+**SOM** — illustrative share that could be captured over a five-year horizon
 
-**No vehicle inventory → no stock financing → no inventory depreciation
-→ lower balance-sheet intensity.**
+It also compares three broad competitive models:
 
-------------------------------------------------------------------------
+- **Classifieds / marketplaces:** audience and liquidity, but limited transaction ownership.
+- **Transaction-service providers:** solve selected payment, transfer or verification steps.
+- **Inventory-owning retailers:** control more of the journey but require capital and carry inventory risk.
 
-## 3. Revenue Architecture
+The strategic whitespace explored here is a model that combines the marketplace advantages of the first group with more of the trusted transaction experience of the third — **without owning the inventory**.
 
-The model explores multiple revenue lines around a single transaction:
+---
 
-  Revenue layer                  Strategic role
-  ------------------------------ -----------------------------------------------
-  Transaction / escrow fee       Core transaction monetization
-  Success fee                    Aligns revenue with completed transactions
-  Inspection margin              Trust + incremental monetization
-  Warranty commission            Risk protection without underwriting directly
-  Vehicle-history verification   Fraud reduction + service revenue
-  Financing commission           Liquidity + high-value ancillary revenue
-  Delivery margin                Convenience + transaction completion
-  Listing visibility             Existing marketplace-style upsell
+## Five-Year Financial Model
 
-The important management question is not whether every service should be
-launched on day one. It is which combination creates enough **customer
-trust, conversion and ARPU** to justify the added operational
-complexity.
+![Five-year financial model](assets/case-financial-model.png)
 
-------------------------------------------------------------------------
+The integrated model links:
 
-## 4. Market & Competitive Logic
+**market capture → transactions → GMV → ARPU → revenue → direct costs → operating expenses → EBITDA → cash requirements**
 
-The analysis separates:
+It also includes scenario and sensitivity analysis around the variables that most directly drive the investment case.
 
-**TAM** --- total C2C used-car transaction universe\
-**SAM** --- transactions realistically suitable for a digitally
-orchestrated, verified journey\
-**SOM** --- an illustrative share that could be captured over a
-five-year horizon
+The purpose is to ask:
 
-The portfolio workbook intentionally uses modified market inputs. They
-are included to demonstrate the **methodology**, not to provide a
-current market forecast.
+> **Which assumptions have to be true for this strategy to work — and what happens when they are wrong?**
 
-The competitive analysis compares three broad models:
+---
 
-1.  **Classifieds / marketplaces** --- strong audience and liquidity,
-    limited transaction ownership.
-2.  **Transaction-service providers** --- solve parts of payment,
-    transfer or verification.
-3.  **Inventory-owning retailers** --- control the full journey but
-    require capital, stock acquisition and inventory risk.
+## Unit Economics
 
-The proposed model attempts to combine the marketplace advantages of the
-first group with more of the trusted transaction experience of the third
---- while remaining asset-light.
+![Unit economics](assets/case-unit-economics.png)
 
-------------------------------------------------------------------------
+The model connects:
 
-## 5. Unit Economics
+**ARPU → direct service cost → contribution margin → CAC → LTV → payback**
 
-A central part of the model is the link between operating assumptions
-and unit economics.
+C2C is also treated as a **two-sided acquisition problem**. A completed transaction requires both a seller/vehicle and a buyer, so the model considers the economics of acquiring both sides rather than treating CAC as a single undifferentiated marketing number.
 
-The workbook models:
+This is where an incumbent marketplace's inherited SEO, traffic and listing liquidity may create a structural advantage over a greenfield transactional entrant.
 
-**ARPU → direct service cost → contribution margin → CAC → LTV →
-payback**
+---
 
-It also treats C2C as a **two-sided acquisition problem**.
+## Build vs. Partner Logic
 
-A completed transaction requires both:
+### Capabilities the marketplace should control
 
--   a seller / vehicle
--   a buyer
+- customer journey
+- product UX
+- transaction orchestration
+- pricing and packaging
+- data layer
+- customer relationship
+- conversion optimization
+- partner integration
 
-Those sides can have very different acquisition mechanisms and costs.
-The model therefore separates seller acquisition from buyer acquisition
-rather than treating CAC as a single undifferentiated marketing number.
+### Capabilities that may be better partnered
 
-------------------------------------------------------------------------
+- protected / safeguarded payments
+- identity / KYC
+- official ownership transfer
+- mechanical inspection
+- warranty underwriting
+- vehicle-history data
+- consumer finance
+- vehicle logistics
 
-## 6. Financial Model
+The operating principle is to **retain strategic differentiation while externalizing risks that do not create it**.
 
-The five-year model connects:
+---
 
--   market capture
--   transaction volume
--   average vehicle value
--   ARPU
--   service adoption
--   revenue
--   direct costs
--   headcount
--   marketing
--   technology
--   G&A
--   EBITDA
--   taxes
--   working capital
--   cash flow
--   runway
--   break-even
+## Risk & Mitigation
 
-It also includes scenario and sensitivity analysis around the two
-variables that most directly drive the business case:
+![Risk register](assets/case-risks.png)
 
-**market capture × monetization per transaction**
+The model explicitly challenges the strategy across adoption, marketplace liquidity, legal exposure, partner dependency, data quality and fraud.
 
-This allows management to ask not only *"What does the base case say?"*
-but also:
+Risk is treated as a **design input**, not a footnote to an attractive forecast.
 
-> **Which assumptions have to be true for this strategy to work?**
+---
 
-------------------------------------------------------------------------
+## What the Workbook Contains
 
-## 7. Risk & Mitigation
+The repository includes the complete sanitized portfolio model:
 
-The model explicitly identifies risks rather than treating the forecast
-as a certainty.
+### [Download / inspect the illustrative Excel business case](Illustrative_C2C_Automotive_Marketplace_Business_Case.xlsx)
 
-Key areas include:
+The workbook preserves the interconnected architecture of the original planning exercise across **16 worksheets**:
 
--   slow adoption of a fully transacted C2C journey
--   two-sided marketplace liquidity
--   warranty / liability exposure
--   dependency on financial and transaction partners
--   market-data uncertainty
--   fraud and identity risk
--   vehicle-history and mileage integrity
--   conversion assumptions
--   customer-acquisition efficiency
+1. Cover
+2. Executive Summary
+3. Market Sizing
+4. Competitive Benchmark
+5. Business Model
+6. Partner Architecture
+7. Five-Year Financial Model
+8. ARPU Detail
+9. Expense Assumptions
+10. Annual P&L
+11. Monthly P&L
+12. Cash Flow
+13. CAC & LTV
+14. Competitive Advantage
+15. Risks & Mitigations
+16. Notes & Sources
 
-The operating principle is to **externalize risks that do not create
-strategic differentiation** --- for example actuarial warranty risk ---
-while retaining control of the customer journey and transaction
-experience.
+For a deeper explanation of the managerial logic, see **[CASE_STUDY.md](CASE_STUDY.md)**.
 
-------------------------------------------------------------------------
+---
 
-## 8. Management Decision Framework
+## Research Discipline
 
-The business case is designed around a sequence of management questions:
+The underlying model includes a dedicated **Notes & Sources** section recording:
 
-``` text
-Is there a meaningful customer problem?
-                ↓
-Is there strategic whitespace?
-                ↓
-Can the incumbent's existing assets create an advantage?
-                ↓
-What should be built vs. partnered?
-                ↓
-How does the model monetize?
-                ↓
-What unit economics must be achieved?
-                ↓
-How much capital and runway are required?
-                ↓
-What assumptions are most fragile?
-                ↓
-What should be validated before scaling?
-```
+- data provenance
+- date / context of collection
+- discrepancies between sources
+- possible explanations
+- recommended treatment
+- implications for the business case
 
-The result is intended as a **decision system**, not simply a forecast.
+This matters because a sophisticated financial model is only as useful as the assumptions underneath it.
 
-------------------------------------------------------------------------
+---
 
-## 9. How AI Assisted the Work
+## How AI Assisted the Work
 
-AI was used as an analytical and production accelerator across parts of
-the project, including:
+AI was used as an analytical and production accelerator for parts of the project, including:
 
--   structuring research questions
--   synthesizing market information
--   exploring alternative business-model configurations
--   challenging assumptions
--   accelerating scenario analysis
--   assisting with financial-model construction
--   organizing risk and mitigation frameworks
--   improving the clarity and structure of the final deliverable
+- structuring research questions
+- synthesizing market information
+- exploring alternative business-model configurations
+- challenging assumptions
+- accelerating scenario analysis
+- assisting with model construction
+- organizing risk and mitigation frameworks
+- improving the clarity and structure of the deliverable
 
 The managerial work remained human-led:
 
--   defining the strategic problem
--   determining which assumptions mattered
--   interpreting conflicting evidence
--   deciding which business model was credible
--   assessing partner vs. build decisions
--   calibrating commercial assumptions
--   evaluating risk
--   drawing the final strategic implications
+- defining the strategic problem
+- determining which assumptions mattered
+- interpreting conflicting evidence
+- deciding which business model was credible
+- assessing build-vs-partner decisions
+- calibrating commercial assumptions
+- evaluating risk
+- drawing the final strategic implications
 
-**AI accelerated the work. It did not own the decision.**
+> **AI accelerated the work. It did not own the decision.**
 
-------------------------------------------------------------------------
-
-## 10. Research Discipline
-
-One element I consider particularly important is the treatment of
-uncertain or conflicting information.
-
-The underlying model includes a dedicated **Notes & Sources** section
-that records:
-
--   data provenance
--   date of collection
--   discrepancies between sources
--   possible reasons for differences
--   recommended treatment
--   implications for the business case
-
-That discipline matters because an attractive financial model is only as
-useful as the assumptions behind it.
-
-------------------------------------------------------------------------
-
-## Portfolio Workbook
-
-The repository includes:
-
-**`Illustrative_C2C_Automotive_Marketplace_Business_Case.xlsx`**
-
-The workbook preserves the structure and interconnected logic of the
-original business-planning model while using anonymized / modified
-portfolio assumptions.
-
-### Workbook structure
-
-1.  Executive Summary\
-2.  Market Sizing\
-3.  Competitive Benchmark\
-4.  Business Model\
-5.  Partner Architecture\
-6.  Five-Year Financial Model\
-7.  ARPU Detail\
-8.  Expense Assumptions\
-9.  Annual P&L\
-10. Monthly P&L\
-11. Cash Flow\
-12. CAC & LTV\
-13. Competitive Advantage\
-14. Risks & Mitigations\
-15. Notes & Sources
-
-------------------------------------------------------------------------
+---
 
 ## What This Project Demonstrates
 
-This case is intended to demonstrate capability across:
+**Corporate Strategy · Marketplace Strategy · Business-Model Innovation · Financial Modeling · Unit Economics · Product Strategy · Partnerships · GTM · Risk Analysis · AI-Assisted Research · Executive Decision Support**
 
-**Corporate Strategy · Marketplace Strategy · Business-Model Innovation
-· Financial Modeling · Unit Economics · Product Strategy · Partnerships
-· GTM · Risk Analysis · AI-Assisted Research · Executive Decision
-Support**
+My approach to technology and growth problems is:
 
-It reflects the way I approach technology and growth problems:
+> **Understand the customer and market → define the strategic opportunity → design the operating model → quantify the economics → identify the risks → determine what management must validate before committing capital.**
 
-> **Understand the customer and market → define the strategic
-> opportunity → design the operating model → quantify the economics →
-> identify the risks → define what management must validate before
-> committing capital.**
+---
 
-------------------------------------------------------------------------
+## Portfolio Context
+
+This project complements my **AI Business Opportunity Mapper**, which demonstrates LLM-enabled product and decision-support development.
+
+Together they represent two sides of the same approach:
+
+**using AI and technology to identify opportunities**  
+**+**  
+**applying commercial and managerial judgment to turn them into executable business strategies.**
+
+---
 
 ## About
 
 **Javier Ortiz Sanz**
 
-Growth & Technology Executive\
-AI · Business Development · International Expansion · Digital Strategy
+Growth & Technology Executive  
+**AI · Business Development · International Expansion · Digital Strategy**
 
-This repository is a portfolio case study. It is not an investment
-recommendation, current market forecast or representation of the
-original client's confidential business plan.
+This repository is a portfolio case study. It is not an investment recommendation, a current market forecast or a representation of the original client's confidential business plan.
